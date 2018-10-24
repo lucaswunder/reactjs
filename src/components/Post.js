@@ -7,6 +7,7 @@ const Post = props => (
   <div className="post">
     <PostHeader avatar={props.data.avatar} name={props.data.name} time={props.data.time} />
     <p> {props.data.body} </p>
+    <br />
   </div>
 );
 
